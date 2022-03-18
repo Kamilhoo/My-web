@@ -1,0 +1,21 @@
+body {
+  background-color: #feddbe;
+}
+h1 {
+  color: #66bfbf;
+}
+h2 {
+  color: darkgreen;
+}
+h3 {
+  color: darkgreen;
+}
+
+h5 {
+  color: darkgreen;
+}
+hr {
+  width: 400px;
+  border-color: white;
+  background-color: white;
+}

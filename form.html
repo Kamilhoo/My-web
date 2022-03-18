@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact us Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <br />
+    <h3>My whatsapp number</h3>
+    <h4>+92306913191</h4>
+    <br />
+    <h3>My Gmail</h3>
+    <h4>kamiljamali76@gmail.com</h4>
+    <center>
+      <form
+        action="mailto:kamiljamali76@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <lebal>Your Name</lebal>
+        <input type="text" placeholder="Name" name="Name" />
+        <br />
+        <lebal>Your Email</lebal>
+        <input type="email" placeholder="Email" name="Email" />
+
+        <h4>Your Message</h4>
+        <textarea
+          name="Message"
+          placeholder="Your Message"
+          cols="20"
+          rows="7"
+        ></textarea>
+        <br />
+        <input type="submit" />
+      </form>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
